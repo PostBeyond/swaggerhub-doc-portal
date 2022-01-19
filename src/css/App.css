@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   height: 100vh;
-  background-color: #0B1D33;
+  background-color: #eff3f6;
 }
 
 .swagger-ui .info {
@@ -30,14 +30,14 @@
 }
 
 .swagger-ui .opblock-tag {
-  color: white;
+  color: black;
   text-transform: uppercase;
   letter-spacing: .1em;
   border-bottom: 1px solid #D4BE7D;
 }
 
 .swagger-ui .opblock-tag small {
-  color: white;
+  color: black;
 }
 
 .swagger-ui .op-block {
@@ -45,31 +45,31 @@
 }
 
 .swagger-ui .opblock .opblock-summary-path {
-  color: white;
+  color: #7b828b;
 }
 
 .swagger-ui .opblock .opblock-summary-description {
-  color: white;
+  color: #7b828b;
 }
 
 .swagger-ui .markdown {
-  color: white;
+  color: #7b828b;
 }
 
 .swagger-ui .markdown p {
-  color: white;
+  color: #7b828b;
 }
 
 .swagger-ui .table-container {
-  color: white;
+  color: #7b828b;
 }
 
 .swagger-ui .response-col_status {
-  color: white;
+  color: #7b828b;
 }
 
 .swagger-ui .responses-header td {
-  color: white;
+  color: #7b828b;
 }
 
 .swagger-ui .table-container th {
