@@ -25,11 +25,11 @@ const Sidebar = props => {
     <div className="side-bar">
         <div className="side-bar-header">
             <img src={organizationConfig.displayImage} alt="logo"/>
-            <h1>{organizationConfig.displayName}</h1>
+            {/* <h1>{organizationConfig.displayName}</h1> */}
             <h3>{organizationConfig.displayTag}</h3>
         </div>
         <div className="side-bar-body">
-            <h3>API DOCS</h3>
+            {/* <h3>API DOCS</h3> */}
             {apiLinks}
         </div>
     </div>
