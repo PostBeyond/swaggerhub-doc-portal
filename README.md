@@ -24,6 +24,6 @@ An example of the site can be found at: https://empire-doc-portal.netlify.com/
 ## Deploying to GitHub Pages
 
 - make sure the current GH user has write access
-- make sure the `gh-pages` package is installed
+- make sure the `gh-pages` [package](https://www.npmjs.com/package/gh-pages) is installed
 - `npm run deploy`
 - in a few minutes, check [here](https://postbeyond.github.io/swaggerhub-doc-portal/) the new version of the docs
