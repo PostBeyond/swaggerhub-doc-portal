@@ -20,3 +20,10 @@ An example of the site can be found at: https://empire-doc-portal.netlify.com/
 - `npm start`
 
 **In order to connect this to your own Swaggerhub repository, simply update the /src/organization_config.json file with your organization name, and other display information.**
+
+## Deploying to GitHub Pages
+
+- make sure the current GH user has write access
+- make sure the `gh-pages` package is installed
+- `npm run deploy`
+- in a few minutes, check [here](https://postbeyond.github.io/swaggerhub-doc-portal/) the new version of the docs
