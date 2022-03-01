@@ -5,11 +5,10 @@
   background-color: #eff3f6;
 }
 
-.swagger-ui .info {
+/* .swagger-ui .info {
   background-color: white;
   padding: 50px;
   border-bottom: 5px solid #B32727;
-  /* font-family:  */
 }
 
 .swagger-ui .info .description p {
@@ -96,4 +95,4 @@
 
 .swagger-ui section.models .model-container:hover {
   background-color: whitesmoke;
-}
+} */
