@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 import SwaggerUI from 'swagger-ui-react';
 import Config from './organization_config.json';
 import Sidebar from './Sidebar.js'
+import "swagger-ui-react/swagger-ui.css"
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        organizationConfig: null,
-        definitionList: null,
-        definitionLink: "https://petstore.swagger.io/v2/swagger.json"
-      }
-      this.swaggerhub = this.swaggerhub.bind(this)
-      this.getOrganizationData = this.getOrganizationData.bind(this)
-      this.updateDefinitionLink = this.updateDefinitionLink.bind(this)
+      organizationConfig: null,
+      definitionList: null,
+      definitionLink: "https://api.swaggerhub.com/apis/PostBeyond/analytics-api/1.0.0"
     }
+    this.swaggerhub = this.swaggerhub.bind(this)
+    this.getOrganizationData = this.getOrganizationData.bind(this)
+    this.updateDefinitionLink = this.updateDefinitionLink.bind(this)
+  }
 
   componentWillMount() {
     this.setState({
@@ -42,7 +43,7 @@ class App extends Component {
   }
 
   getOrganizationData(organization) {
-    let inputParams = "page=0&limit=10&sort=NAME&order=ASC"
+    let inputParams = "page=0&limit=100&sort=NAME&order=ASC"
     let inputResource = organization;
   
     this.swaggerhub('GET', inputResource, inputParams).then(response => {
