@@ -9,7 +9,7 @@
     "react-scripts": ">=5.0.1",
     "swagger-ui-react": "^4.18.2",
     "har-validator": "^5.1.3",
-    "immer": ">=9.0.6"
+    "immer": ">=9.0.21"
   },
   "scripts": {
     "predeploy": "npm run build",
